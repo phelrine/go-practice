@@ -325,4 +325,5 @@ func main() {
 * `ioutil.ReadDir(string) ([]os.FileInfo, error) ` 特定ディレクトリのファイル一覧を出力する
 * `os.FileInfo` の `Name()` でエントリー名を取得できる
 
-###
+### goroutineを利用したsleep sortを実装する
+[sleep sort](https://qiita.com/snsk/items/33c01951ef27bbd2b093) のアルゴリズムを元にgoroutineを利用してスリープソートを実装する.
