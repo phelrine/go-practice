@@ -24,23 +24,4 @@ func main() {
 	var e myInt
 	e = 1
 	fmt.Printf("myInt e = %d\n", e)
-
-	f := struct {
-		f1 int
-		f2 string
-	}{
-		f1: 1,
-		f2: "struct",
-	}
-	fmt.Printf("struct f = { f1 = %d, f2 = %s }\n", f.f1, f.f2)
-
-	type myType struct {
-		num  int
-		name string
-	}
-	g := myType{
-		10,
-		"name1",
-	}
-	fmt.Printf("myType g = { num = %d, name = %s }\n", g.num, g.name)
 }
