@@ -317,9 +317,9 @@ func main() {
 指定したディレクトリ内のファイル一覧を出力するプログラムを作成する.
 
 * 利用パッケージ
-** `fmt`
-** `io/ioutil`
-** `os`
+  * `fmt`
+  * `io/ioutil`
+  * `os`
 
 ヒント
 * `ioutil.ReadDir(string) ([]os.FileInfo, error) ` 特定ディレクトリのファイル一覧を出力する
